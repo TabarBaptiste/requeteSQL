@@ -1,0 +1,124 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222831;
+    color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles de formulaire */
+.req {
+    background-color: #393E46;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    color: #EEEEEE;
+    margin-bottom: 10px;
+    display: block;
+}
+
+textarea {
+    width: 98%;
+    max-width: 98%;
+    min-width: 50%;
+    max-height: 250px;
+    min-height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #393E46;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button[type="submit"] {
+    margin: 0 0 2% 2%;
+    padding: 10px 20px;
+    background-color: grey;
+    color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+button[type="submit"]:hover {
+    background-color: #393E46;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Styles de tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+}
+
+th {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+td {
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+p {
+    margin: 2% 0 0 2%;
+}
+/* Styles de la liste déroulante */
+.selection select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    background-color: #222831;
+    color: #EEEEEE;
+    font-size: 16px;
+    margin-bottom: 2%;
+    /*-webkit-appearance: none;  Retire les styles de base des navigateurs 
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('C:/Users/bapti/Downloads/chevron-fleche-vers-le-bas.png');
+    background-repeat: no-repeat;
+    background-position: right center;*/
+}
+
+/* Styles pour les options de la liste déroulante */
+.selection select option {
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+.vide {
+    color: grey;
+}
